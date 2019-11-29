@@ -1,0 +1,9 @@
+kafka.broker: localhost:9092
+enable.auto.commit: true
+auto.commit.interval.ms:  100
+group.id: group1
+kafka.auto.offset.reset: earliest
+kafka.topic: sdn
+elasticsearch.host : localhost
+elasticsearch.port: 9200
+web.api : http://localhost:8080/thirdparty
